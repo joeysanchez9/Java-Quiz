@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>JavaScript Quiz Game</title>
+
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to JavaScript Quiz!</h1>
+  </header>
+<div class="container">
+    <div id="question-container" class="hide">
+      <p id="timer" class="timer"></p>
+      <p id="score-display"></p>
+      
+      
+      <div id="questions">Questions</div>
+      <div id="answer-buttons" class="btn-grid">
+        <button class="btn">Answer 1</button>
+        <button class="btn">Answer 2</button>
+        <button class="btn">Answer 3</button>
+        <button class="btn">Answer 4</button>
+      </div>
+      <p id="score-display"></p>
+      <p id="high-score-display"></p>
+    </div>
+    <div class="gameOver">
+      <div id="game-over" class="hide">
+        <p>Game Over.  Play Again?</p>
+        </div>
+        <form id="score-form" class="hide">
+          <label for="name-text">Enter name: </label>
+          <input type="text" placeholder="Enter name : " name="name-text" id="name-text" />
+        </form>
+    <div class="controls">
+      
+      <button id="start-btn" class="start-btn btn">Start</button>
+      <button id="next-btn" class="next-btn btn hide">Next</button>
+      <button id="save-btn" class="save-btn btn hide">Save Score</button>
+      
+    </div>
+    
+      </div>
+    </div>
+  </div>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
